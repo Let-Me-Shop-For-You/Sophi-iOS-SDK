@@ -16,7 +16,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Sophi",
-            url: "https://github.com/yyerdogmuss/Sophi-iOS-SDK/releases/download/1.0.0/Sophi.xcframework.zip",
+            url: "https://github.com/Let-Me-Shop-For-You/Sophi-iOS-SDK/releases/download/0.0.1/Sophi.xcframework.zip",
             checksum: "36ff8696a428f2952db4bec518eeffd6c76419310296f2d579b00ff67acb25a3"
         )
     ]
