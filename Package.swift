@@ -9,13 +9,13 @@ let package = Package(
         .library(name: "Sophi", targets: ["Sophi", "SophiSupport"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Let-Me-Shop-For-You/Sophi-Event-iOS-SDK", exact: "0.0.1-alpha01"),
+        .package(url: "https://github.com/Let-Me-Shop-For-You/Sophi-Event-iOS-SDK", exact: "0.0.1"),
     ],
     targets: [
         .binaryTarget(
             name: "Sophi",
-            url: "https://github.com/Let-Me-Shop-For-You/Sophi-iOS-SDK/releases/download/0.0.1-alpha01/Sophi.xcframework.zip",
-            checksum: "2a6d7cc7f0b4603f14f14acc6c8c06da54457332f0b7ce37b25a8e479dd5d053"
+            url: "https://github.com/Let-Me-Shop-For-You/Sophi-iOS-SDK/releases/download/0.0.1/Sophi.xcframework.zip",
+            checksum: "33f9a22908b02315e08e5560a69b69cc643b4b0b29450eaa382971081a38a086"
         ),
         .target(
             name: "SophiSupport",
